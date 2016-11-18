@@ -1,0 +1,193 @@
+/*---------------------GENERAL------------------*/
+
+@font-face {
+  font-family: retroFont;
+  src: url(Hamster.otf);
+
+}
+
+body {
+  font-family: retroFont;
+  color: white;
+  background-image: url('../image/background.jpg');
+  background-size: cover;
+  margin:0;
+  padding:0;
+}
+
+.inputandbutton, .usewithkeys{
+  float: right;
+  margin-right: 250px;
+  margin-top: 400px;
+}
+
+p{
+  font-size: 25pt;
+}
+
+a {
+  font-family: retroFonts;
+  position: relative;
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+  background-color: rgb(145, 192, 158);
+  font-weight: 700;
+  font-size: 2em;
+  padding: 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 9px 0px rgb(125, 119, 105), 0px 9px 25px rgba(0,0,0,.7);
+  -moz-box-shadow: 0px 9px 0px rgb(125, 119, 105), 0px 9px 25px rgba(0,0,0,.7);
+  box-shadow: 0px 9px 0px rgb(125, 119, 105), 0px 9px 25px rgba(0,0,0,.7);
+  width: 160px;
+  text-align: center;
+  margin-left: 15px;
+}
+
+a:active {
+  -webkit-box-shadow: 0px 3px 0px rgb(125, 119, 105), 0px 3px 6px rgba(0,0,0,.9);
+  -moz-box-shadow: 0px 3px 0px rgb(125, 119, 105), 0px 3px 6px rgba(0,0,0,.9);
+  box-shadow: 0px 3px 0px rgb(125, 119, 105), 0px 3px 6px rgba(0,0,0,.9);
+  position: relative;
+  top: 6px;
+}
+
+input{
+  height: 45px;
+  width: 300px;
+  padding: 5px;
+  font-size: larger;
+}
+
+span{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 40px;
+  font-size: 25pt;
+}
+
+li{
+  font-size: 250%;
+}
+
+/*------PRESENTATION OF QUESTION,TIME & SCORE, HIGHSCORE CSS------*/
+
+.presentationcontainer{
+  position: relative;
+}
+
+#bubble{
+  position: absolute;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 700px;
+}
+
+#presentquestion{
+  position: absolute;
+  font-size: larger;
+  color: black;
+  margin-top: 100px;
+  margin-left: 750px;
+  font-size: 250%;
+}
+
+#time{
+  margin-left: 405px;
+  position: fixed;
+}
+#timespan{
+  margin-left: 300px;
+  position: fixed;
+}
+
+#score {
+  margin-left: 955px;
+  position: fixed;
+}
+#textspan{
+  left: 800px;
+  position: fixed;
+}
+
+#highscore{
+  margin-top: 300px;
+  margin-left: 760px;
+  position: absolute;
+  color: black;
+
+}
+
+#result{
+  margin-top: 350px;
+  margin-left: 700px;
+  font-family: Arial;
+  color: black;
+  font-size: 50%;
+  list-style-type: none;
+  position: absolute;
+}
+
+/*-------------------------START AND END PAGE----------------------------*/
+
+.startpage .endpage{
+  background:rgba(0,0,0,0.5);
+
+}
+
+.sign{
+  margin-top: 250px;
+  margin-left: 550px;
+  position: absolute;
+}
+
+#username{
+  margin-top: 380px;
+  margin-left: 730px;
+  position: absolute;
+}
+
+.indexbutton{
+  position: absolute;
+  text-align: center;
+  margin-top: 600px;
+  margin-left: 750px;
+}
+
+.indexbutton:active{
+  position: absolute;
+}
+
+.endbutton{
+  position: absolute;
+  text-align: center;
+  margin-top: 600px;
+  margin-left: 750px;
+}
+
+.endbutton:active{
+  position: absolute;
+}
+
+/*------------------------------------------------------------------------------*/
+
+.hidden{
+  visibility: hidden ;
+}
+
+.container{
+  position: relative;
+}
+
+.alternativeTemplate {
+  position: absolute;
+  margin-left: 800px;
+}
+
+.inputTemplate{
+  position: absolute;
+  margin-left: 800px;
+}

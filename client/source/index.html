@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+</head>
+
+<body>
+<div class="presentationcontainer hidden">
+  <img id='bubble' src="image/bubble.png" alt="pratbubbla"/>
+  <p id="presentquestion"></p>
+</div>
+
+<div class="container">
+  <div class="inputTemplate hidden">
+    <div class="inputandbutton">
+      <p>Skriv ditt svar:</p>
+      <input name="value" type="text" id="answer">
+      <a class="button" href="#">Press me!</a>
+      <div class="bottom"></div>
+    </div>
+  </div>
+
+  <div class="alternativeTemplate hidden">
+    <div class="usewithkeys">
+      <p>Tryck på den tangent som motsvarar ditt svar:</p>
+      <ul id="textList"></ul>
+    </div>
+  </div>
+
+
+  <div class="startpage hidden">
+    <img class="sign" src="image/firstsign.png" alt="barber sign">
+    <input name="value" type="text" id="username" placeholder="Username">
+    <a class="indexbutton" href=#>Start</a>
+  </div>
+
+  <div class="endpage hidden">
+    <img class="sign" src="image/firstsign.png" alt="barber sign">
+    <p ID="highscore">HIGHSCORE</p>
+    <ul id="result"></ul>
+    <a class="endbutton end" href=#>Restart</a>
+  </div>
+</div>
+
+<div class="timescore">
+  <p><span id="timespan">Din tid:</span><span id="time"></span>
+    <span id="textspan">Din poäng:</span><span id="score">0</span></p>
+</div>
+
+<script src="./javascript/build.js"></script>
+
+</body>
+
+</html>
